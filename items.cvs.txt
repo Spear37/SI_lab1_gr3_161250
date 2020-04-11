@@ -1,0 +1,5 @@
+(16, makaroni, 52)
+(17, sok, 60)
+(18, chokolado, 59)
+(19. chips, 30)
+(20, kolac, 120)
