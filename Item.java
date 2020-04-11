@@ -44,3 +44,23 @@ class Item {
 		
 	}
 }
+
+class Receipt {
+
+	List<Item> Receipt= new ArrayList<>();
+
+	double Final (List<Item> Receipt){
+	double final = 0;
+	while (!Receipt.isEmpty()) {
+		final = final + Receipt.getPrice();
+		Receipt = Receipt.next();}
+
+	return final;}
+
+	List<Item> addItem (int id, String name, double price, char ddv) {
+		while (!Receipt.isEmpty()) Receipt = Receipt.next();
+
+		item a = new item(id, name, price, ddv);
+		Receipt = item;
+
+}
